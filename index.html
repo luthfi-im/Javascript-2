@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,10 +13,12 @@
   <script src="nilai.js" defer></script>
   <script src="app.js" defer></script>
 </head>
+
 <body>
   <header>
     <h1>Rekap Nilai Pemrograman Web</h1>
-    <p>Data dari <code>api.js</code> (Promise + localStorage) &middot; nilai akhir &amp; grade dihitung oleh <code>nilai.js</code></p>
+    <p>Data dari <code>api.js</code> (Promise + localStorage) &middot; nilai akhir &amp; grade dihitung oleh
+      <code>nilai.js</code></p>
   </header>
 
   <main>
@@ -23,8 +26,10 @@
       <div class="kartu"><span class="label">Jumlah</span><span id="stat-jumlah" class="angka">-</span></div>
       <div class="kartu"><span class="label">Lulus</span><span id="stat-lulus" class="angka">-</span></div>
       <div class="kartu"><span class="label">Rata-rata</span><span id="stat-rata" class="angka">-</span></div>
-      <div class="kartu"><span class="label">Tertinggi</span><span id="stat-tertinggi" class="angka kecil">-</span></div>
-      <div class="kartu lebar"><span class="label">Distribusi grade</span><span id="stat-distribusi" class="angka kecil">-</span></div>
+      <div class="kartu"><span class="label">Tertinggi</span><span id="stat-tertinggi" class="angka kecil">-</span>
+      </div>
+      <div class="kartu lebar"><span class="label">Distribusi grade</span><span id="stat-distribusi"
+          class="angka kecil">-</span></div>
     </section>
 
     <section>
@@ -49,16 +54,25 @@
         <table>
           <thead>
             <tr>
-              <th>NIM</th><th>Nama</th><th>Tugas</th><th>UTS</th><th>UAS</th>
-              <th>Nilai Akhir</th><th>Grade</th><th>Aksi</th>
+              <th>NIM</th>
+              <th>Nama</th>
+              <th>Tugas</th>
+              <th>UTS</th>
+              <th>UAS</th>
+              <th>Nilai Akhir</th>
+              <th>Grade</th>
+              <th>Aksi</th>
             </tr>
           </thead>
           <tbody id="tabel-body">
-            <tr><td colspan="8" class="kosong">Memuat data...</td></tr>
+            <tr>
+              <td colspan="8" class="kosong">Memuat data...</td>
+            </tr>
           </tbody>
         </table>
       </div>
     </section>
   </main>
 </body>
+
 </html>
